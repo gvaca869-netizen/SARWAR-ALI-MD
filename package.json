@@ -8,8 +8,12 @@
     "stop": "pm2 stop SARWAR-MD",
     "restart": "pm2 restart SARWAR-MD"
   },
+  "engines": {
+    "node": ">=20.x",
+    "npm": ">=10.x"
+  },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:gifted-baileys@2.0.6",
+    "@whiskeysockets/baileys": "7.0.0-rc.9",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
